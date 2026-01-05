@@ -4,7 +4,7 @@ function Resume() {
         <main className="resume" id = "resume">
         <iframe
             className="resume-frame"
-            src="/resume.pdf"
+            src="https://lmelkamu.github.io/lydiamelkamu/resume.pdf"
             title="Resume PDF"
         />
         </main>
