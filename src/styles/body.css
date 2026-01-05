@@ -1,0 +1,64 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main body section */
+.body {
+  min-height: 100vh;        /* ← THIS is the key */
+  width: 100%;
+  background-color: #e9eef5;
+  display: flex;
+  justify-content: center;
+  align-items: center;      /* vertically centers content */
+  padding: 40px 20px;
+  overflow-x: hidden;
+}
+
+
+/* Container for text + image */
+.introduction {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-left: 5rem;
+padding-right: 5rem;
+}
+
+/* Prevent image from pushing layout */
+.introduction img {
+  max-width: 300px;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+
+/* Text section */
+.introduction section {
+  flex: 1;
+}
+
+.introduction h2 {
+  color: #222;
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+
+.introduction h3 {
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* Bottom paragraph */
+.introduction p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
