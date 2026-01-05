@@ -14,7 +14,7 @@ function Contact() {
 
           <p>
             <span className="label">Phone:</span>
-            <a href="tel:+13016333483">(301) 633-3483</a>
+            <a href="tel:+13016333483">(301) 633-3482</a>
           </p>
         </div>
       </section>
